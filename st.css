@@ -1,0 +1,45 @@
+body{
+    min-height: 100vh;
+    background-color: rgb(197, 197, 197);
+}
+#ddarea{
+    width:500px;
+    height:200px;
+    border:1px dotted #888;
+    margin: 1em auto;
+}
+#ddarea.ddefect{
+    border:1px solid #000;
+}
+#txtarea{
+    padding:5px;
+    width: 50%;
+    height: 150px;
+    overflow: auto;
+    background: black;
+    color:white;
+    margin: 1em auto;
+}
+.txtareawrap{
+    text-align:center;
+    margin-bottom:1em;
+}
+p{
+    text-align: center;
+    padding: 10px 0;
+    font-weight: bold;
+}
+
+
+button {
+    display: block;
+    margin: auto;
+    background-color: rgb(214, 240, 255);
+    font-weight: bold;
+
+
+  }
+
+form{
+    text-align: center;
+}
